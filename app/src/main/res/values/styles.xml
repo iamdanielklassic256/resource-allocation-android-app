@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <!-- Button Style for Reset Password -->
+        <style name="Button_ResetPassword">
+            <item name="android:background">@color/white</item>
+            <item name="android:textColor">@color/black</item>
+        </style>
+
+        <!-- Button Style for Sign Up -->
+        <style name="Button_SignUp">
+            <item name="android:backgroundTint">@color/blue</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+    </resources>
