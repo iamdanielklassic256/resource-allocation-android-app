@@ -7,17 +7,12 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <!-- App Logo -->
 
-    <!-- App Name -->
     <ImageView
         android:id="@+id/appLogo"
         android:layout_width="544dp"
         android:layout_height="428dp"
-        android:layout_centerHorizontal="true"
         android:src="@drawable/logo" />
-
-    <!-- Slogan -->
 
     <TextView
         android:id="@+id/appName"

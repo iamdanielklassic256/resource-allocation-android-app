@@ -28,7 +28,7 @@ public class AuthActivity extends AppCompatActivity {
         loginAuth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
+                if (username.getText().toString().equals("admin@gmail.com") && password.getText().toString().equals("admin@123")) {
                     // Correct login
                     Intent intent = new Intent(AuthActivity.this, Dashboard.class);
                     startActivity(intent); // Start the Dashboard activity

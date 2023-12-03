@@ -4,13 +4,12 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResetActivity extends AppCompatActivity {
+public class ThemeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.reset);
-
-
+        setContentView(R.layout.theme_toggle);
 
     }
+
 }

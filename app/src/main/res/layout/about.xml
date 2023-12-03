@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AboutActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutTitle"
+        android:text="ABOUT"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signname"
+        android:text="Jacwicongeyo Mercy, a 24 Year old Ugandan. I am currently a student of Gulu university pursuing a bachelor's degree in Information and Communication technology. I am a Christian"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/aboutTitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resourceAppInfo"
+        android:text="The Resource Allocation App is a system designed to effectively distribute and manage resources within our community. It optimizes the allocation process for various needs, ensuring efficient utilization and equitable distribution of resources."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/signname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

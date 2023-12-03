@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">resource-allocation-system</string>
+    <string name="app_name">Resource Allocation</string>
+    <string name="app_display">RA</string>
 </resources>

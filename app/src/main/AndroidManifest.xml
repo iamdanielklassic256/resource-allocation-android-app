@@ -1,12 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <!-- Add the permission here -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ras_icon_with_bg"
-        android:label="@string/app_name"
+        android:label="@string/app_display"
         android:roundIcon="@mipmap/ras_icon_with_bg_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Resourceallocationsystem"
@@ -33,6 +34,36 @@
             <!-- Register activity without intent-filter -->
         </activity>
 
+        <activity
+            android:name=".Dashboard"
+            android:exported="true">
+            <!-- Dashboard activity without intent-filter -->
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="true">
+            <!-- About activity without intent-filter -->
+        </activity>
+        <activity
+            android:name=".ResourceActivity"
+            android:exported="true">
+            <!-- Resources activity without intent-filter -->
+        </activity>
+        <activity
+            android:name=".CourseActivity"
+            android:exported="true">
+            <!-- Courses activity without intent-filter -->
+        </activity>
+        <activity
+            android:name=".ResetActivity"
+            android:exported="true">
+            <!-- Reset activity without intent-filter -->
+        </activity>
+        <activity
+            android:name=".ThemeActivity"
+            android:exported="true">
+            <!-- Theme activity without intent-filter -->
+        </activity>
     </application>
 
 </manifest>

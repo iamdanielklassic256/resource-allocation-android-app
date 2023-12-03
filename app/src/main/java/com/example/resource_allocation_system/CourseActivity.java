@@ -1,14 +1,17 @@
 package com.example.resource_allocation_system;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResetActivity extends AppCompatActivity {
+public class CourseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.reset);
+        setContentView(R.layout.course);
 
 
 
